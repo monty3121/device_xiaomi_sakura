@@ -26,7 +26,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := derp_sakura
+PRODUCT_NAME := lineage_sakura
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
@@ -45,5 +45,3 @@ BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/
 TARGET_BOOT_ANIMATION_RES += 1080
 USE_LEGACY_BOOTANIMATION := true
 
-#Official
-DERP_BUILDTYPE := Official
